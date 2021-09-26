@@ -1,0 +1,191 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.2"
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        applicationId "com.example.ecommerce1"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-analytics:17.2.3'
+    implementation 'com.google.firebase:firebase-auth:19.3.0'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
+//    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.rey5137:material:1.2.5'
+//    implementation 'androidx.cardview:cardvipew:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'io.paperdb:paperdb:2.6'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.2.1'
+    implementation 'androidx.navigation:navigation-ui:2.2.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.9.7'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    testImplementation 'junit:junit:4.13'
+//    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.ar:core:1.16.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
+//    implementation 'com.google.ar.sceneform:core:1.15.0'
+
+}
+
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+sceneform.asset('sampledata/models/aluminium_chair.FBX',
+        'default',
+        'sampledata/models/aluminium_chair.sfa',
+        'src/main/res/raw/aluminium_chair')
+
+sceneform.asset('sampledata/models/armchair.fbx',
+        'default',
+        'sampledata/models/armchair.sfa',
+        'src/main/res/raw/armchair')
+
+sceneform.asset('sampledata/models/basketball_hoop.FBX',
+        'default',
+        'sampledata/models/basketball_hoop.sfa',
+        'src/main/res/raw/basketball_hoop')
+
+sceneform.asset('sampledata/models/chemini.fbx',
+        'default',
+        'sampledata/models/chemini.sfa',
+        'src/main/res/raw/chemini')
+
+sceneform.asset('sampledata/models/college_table.fbx',
+        'default',
+        'sampledata/models/college_table.sfa',
+        'src/main/res/raw/college_table')
+
+sceneform.asset('sampledata/models/cottage_light.fbx',
+        'default',
+        'sampledata/models/cottage_light.sfa',
+        'src/main/res/raw/cottage_light')
+
+sceneform.asset('sampledata/models/door.fbx',
+        'default',
+        'sampledata/models/door.sfa',
+        'src/main/res/raw/door')
+
+sceneform.asset('sampledata/models/door1.fbx',
+        'default',
+        'sampledata/models/door1.sfa',
+        'src/main/res/raw/door1')
+
+sceneform.asset('sampledata/models/drawer.fbx',
+        'default',
+        'sampledata/models/drawer.sfa',
+        'src/main/res/raw/drawer')
+
+sceneform.asset('sampledata/models/eb_nightstand.fbx',
+        'default',
+        'sampledata/models/eb_nightstand.sfa',
+        'src/main/res/raw/eb_nightstand')
+
+sceneform.asset('sampledata/models/football.fbx',
+        'default',
+        'sampledata/models/football.sfa',
+        'src/main/res/raw/football')
+
+
+sceneform.asset('sampledata/models/kitchen_wardrobe.fbx',
+        'default',
+        'sampledata/models/kitchen_wardrobe.sfa',
+        'src/main/res/raw/kitchen_wardrobe')
+
+sceneform.asset('sampledata/models/office_chair.FBX',
+        'default',
+        'sampledata/models/office_chair.sfa',
+        'src/main/res/raw/office_chair')
+
+sceneform.asset('sampledata/models/outdoorparkbenches.fbx',
+        'default',
+        'sampledata/models/outdoorparkbenches.sfa',
+        'src/main/res/raw/outdoorparkbenches')
+
+sceneform.asset('sampledata/models/ps4.FBX',
+        'default',
+        'sampledata/models/ps4.sfa',
+        'src/main/res/raw/ps4')
+
+sceneform.asset('sampledata/models/samsung_led_tv.FBX',
+        'default',
+        'sampledata/models/samsung_led_tv.sfa',
+        'src/main/res/raw/samsung_led_tv')
+
+sceneform.asset('sampledata/models/shelf.FBX',
+        'default',
+        'sampledata/models/shelf.sfa',
+        'src/main/res/raw/shelf')
+
+sceneform.asset('sampledata/models/sink_long.FBX',
+        'default',
+        'sampledata/models/sink_long.sfa',
+        'src/main/res/raw/sink_long')
+
+sceneform.asset('sampledata/models/table.FBX',
+        'default',
+        'sampledata/models/table.sfa',
+        'src/main/res/raw/table')
+
+sceneform.asset('sampledata/models/table_chair.FBX',
+        'default',
+        'sampledata/models/table_chair.sfa',
+        'src/main/res/raw/table_chair')
+
+sceneform.asset('sampledata/models/toilet.fbx',
+        'default',
+        'sampledata/models/toilet.sfa',
+        'src/main/res/raw/toilet')
+
+sceneform.asset('sampledata/models/treadmill.fbx',
+        'default',
+        'sampledata/models/treadmill.sfa',
+        'src/main/res/raw/treadmill')
+
+sceneform.asset('sampledata/models/tvcabinet.fbx',
+        'default',
+        'sampledata/models/tvcabinet.sfa',
+        'src/main/res/raw/tvcabinet')
+
+sceneform.asset('sampledata/models/whirlpool_gas_cooker.FBX',
+        'default',
+        'sampledata/models/whirlpool_gas_cooker.sfa',
+        'src/main/res/raw/whirlpool_gas_cooker')
+
+sceneform.asset('sampledata/models/wineglass.fbx',
+        'default',
+        'sampledata/models/wineglass.sfa',
+        'src/main/res/raw/wineglass')
+
+sceneform.asset('sampledata/models/bench.fbx',
+        'default',
+        'sampledata/models/bench.sfa',
+        'src/main/res/raw/bench')

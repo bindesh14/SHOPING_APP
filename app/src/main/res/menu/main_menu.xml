@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StartActivity">
+
+    <item
+        android:id="@+id/action_more"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:orderInCategory="300"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+
+            <item
+                android:id="@+id/Furniture"
+                android:icon="@drawable/ic_weekend_black_24dp"
+                android:title="@string/furniture"
+                app:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/info_id"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/appinfo"
+                app:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/help_id"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/help"
+                app:showAsAction="ifRoom">
+            </item>
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/logout"
+                app:showAsAction="ifRoom">
+            </item>
+
+            <item
+                android:id="@+id/exit_btn"
+                android:icon="@drawable/ic_close_black_24dp"
+                android:title="@string/exit"
+                app:showAsAction="ifRoom">
+            </item>
+        </menu>
+
+    </item>
+
+</menu>

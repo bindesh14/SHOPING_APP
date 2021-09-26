@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FurnitureActivity">
+
+    <fragment
+        android:id="@+id/sceneform_ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/aluminium_chair"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/aluminium_chair"
+                android:src="@drawable/aluminium_chair" />
+
+            <ImageView
+                android:id="@+id/armchair"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/armchair"
+                android:src="@drawable/armchair" />
+
+            <ImageView
+                android:id="@+id/basketball_hoop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/basketball_hoop"
+                android:src="@drawable/basketball_hoop" />
+
+            <ImageView
+                android:id="@+id/bench"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/bench"
+                android:src="@drawable/bench" />
+
+            <ImageView
+                android:id="@+id/chemini"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/chemini"
+                android:src="@drawable/chemini" />
+
+            <ImageView
+                android:id="@+id/college_table"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/college_table"
+                android:src="@drawable/college_table" />
+
+            <ImageView
+                android:id="@+id/cottage_light"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/cottage_light"
+                android:src="@drawable/cottage_light" />
+
+            <ImageView
+                android:id="@+id/door"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/door"
+                android:src="@drawable/door" />
+
+            <ImageView
+                android:id="@+id/door1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/door_2"
+                android:src="@drawable/door1" />
+
+            <ImageView
+                android:id="@+id/drawer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/drawer"
+                android:src="@drawable/drawer" />
+
+            <ImageView
+                android:id="@+id/eb_nightstand"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/eb_nightstand"
+                android:src="@drawable/eb_nightstand" />
+
+            <ImageView
+                android:id="@+id/football"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/football"
+                android:src="@drawable/football" />
+
+            <ImageView
+                android:id="@+id/kitchen_wardrobe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/kitchen_wardrobe"
+                android:src="@drawable/kitchen_wardrobe" />
+
+            <ImageView
+                android:id="@+id/office_chair"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/office_chair"
+                android:src="@drawable/office_chair" />
+
+            <ImageView
+                android:id="@+id/outdoorparkbenches"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/outdoorparkbenches"
+                android:src="@drawable/outdoorparkbenches" />
+
+            <ImageView
+                android:id="@+id/ps4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/ps4"
+                android:src="@drawable/ps4" />
+
+            <ImageView
+                android:id="@+id/samsung_led_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/samsung_led_tv"
+                android:src="@drawable/samsung_led_tv" />
+
+            <ImageView
+                android:id="@+id/shelf"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/shelf"
+                android:src="@drawable/shelf" />
+
+            <ImageView
+                android:id="@+id/sink_long"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/sink_long"
+                android:src="@drawable/sink_long" />
+
+            <ImageView
+                android:id="@+id/table"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/table"
+                android:src="@drawable/table" />
+
+            <ImageView
+                android:id="@+id/table_chair"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/table_chair"
+                android:src="@drawable/table_chair" />
+
+            <ImageView
+                android:id="@+id/toilet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/toilet"
+                android:src="@drawable/toilet" />
+
+            <ImageView
+                android:id="@+id/treadmill"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/treadmill"
+                android:src="@drawable/treadmill" />
+
+            <ImageView
+                android:id="@+id/tvcabinet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/tvcabine"
+                android:src="@drawable/tvcabinet" />
+
+            <ImageView
+                android:id="@+id/whirlpool_gas_cooker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/whirlpool_gas_cooker"
+                android:src="@drawable/whirlpool_gas_cooker" />
+
+            <ImageView
+                android:id="@+id/wineglass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/wineglass"
+                android:src="@drawable/wineglass" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>

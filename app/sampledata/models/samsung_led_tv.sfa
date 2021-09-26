@@ -1,0 +1,223 @@
+{
+  materials: [
+    {
+      name: 'LCD',
+      parameters: [
+        {
+          baseColor: [
+            0.011764999999999999,
+            0.011764999999999999,
+            0.011764999999999999,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Glossy Dark Grey',
+      parameters: [
+        {
+          baseColor: [
+            0.035293999999999999,
+            0.035293999999999999,
+            0.035293999999999999,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Frame',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Frame_diffuse',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Chrome',
+      parameters: [
+        {
+          baseColor: [
+            0.070587999999999998,
+            0.070587999999999998,
+            0.070587999999999998,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Base',
+      parameters: [
+        {
+          baseColor: [
+            0.0078429999999999993,
+            0.0078429999999999993,
+            0.0078429999999999993,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/samsung_led_tv.FBX',
+    name: 'samsung_led_tv',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\samsung_led_tv.fbm\\Frame_bump.jpg',
+      name: 'Frame_bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'samsung_led_tv.fbm\\Frame_bump.jpg',
+    },
+    {
+      file: 'sampledata/models\\samsung_led_tv.fbm\\Frame_diffuse.jpg',
+      name: 'Frame_diffuse',
+      pipeline_name: 'samsung_led_tv.fbm\\Frame_diffuse.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
